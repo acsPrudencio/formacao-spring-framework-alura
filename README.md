@@ -30,4 +30,11 @@ Neste módulo aprendemos que para evitar repetir a URL em todos os métodos, dev
 classe controller. Que para mapear requisições do tipo POST, devemos utilizar a anotação @PostMapping. Que para receber dados 
 enviados no corpo da requisição, a boa prática é criar uma classe Form, e que ao cadastrar informações é uma boa prática devolver
 o código 201 ao invés do 200. Como utilizar o Postman para testar uma API Rest.  
-<b>Ferramentas: Spring Data, PostgreSQL, Postman</b> 
+<b>Ferramentas: Spring Data, PostgreSQL, Postman</b>
+
+<b>Módulo 05: Validação com Bean Validation</b>  
+Neste módulo aprendemos a fazer validações utilizando o Bean Validation, e para que o spring consiga as validações do 
+Bean Validation e devolver um erro 400, caso alguma informação enviada pelo cliente esteja inválida, devemos utilizar a 
+anotação @Valid dentro do parametro do controlle que as validações seram realizadas, também vimos que para interceptar as 
+exceptions que forem lançadas nos métodos das classes controller, devemos criar uma classe anotada com @RestControllerAdvice.  
+<b>Ferramentas: Spring Data, PostgreSQL, Postman, Bean Validation</b>  
