@@ -38,3 +38,11 @@ Bean Validation e devolver um erro 400, caso alguma informação enviada pelo cl
 anotação @Valid dentro do parametro do controlle que as validações seram realizadas, também vimos que para interceptar as 
 exceptions que forem lançadas nos métodos das classes controller, devemos criar uma classe anotada com @RestControllerAdvice.  
 <b>Ferramentas: Spring Data, PostgreSQL, Postman, Bean Validation</b>  
+
+<b>Módulo 06: Métodos PUT, DELETE e tratamento de erro</b>  
+Neste módulo aprendemos que para receber parâmetros dinâmicos no path da URL, devemos utilizar a anotação @PathVariable, para 
+o tipo PUT, devemos utilizar a anotação @PutMapping, para o tipo DELETE, devemos utilizar a anotação @DeleteMapping.
+Para fazer o controle transacional automático, devemos usar o @Transactional nos métodos do controller. O método findById 
+retorna um objeto Optional<>, que pode ou não conter um objeto e assim podemos fazer uma validação se a entidade pesquisada
+existe no banco de dados.  
+<b>Ferramentas: Spring Data, PostgreSQL, Postman, Bean Validation</b>  
