@@ -1,48 +1,42 @@
-# <p align = "center"> <b>Curso</b>
-## <p align = "center"> <b> Spring Boot API REST: construa uma API  </b>
+# <p align = "center"> <b>Formação Spring Framework </b>
 
-## 💻 Sobre o projeto </br> </br> 
+## 💻 Conteúdo da formação
+* Servlets 
+* Spring Boot 
+* Spring Framework 
+* Spring Data 
+* Spring MVC 
+* Spring Security 
+* Maven 
+* JWT 
+* Bootstrap 
+* Princípios REST 
+* Desenvolvimento de APIs 
+* Docker 
+* Deploy com Heroku  
+* Padrões relacionados a aplicações web
 
-Este projeto contém todo conteúdo do curso <b>Spring Boot API REST: construa uma API</b> da plataforma Alura.
-Você pode conferir o curso clicando <a href = "https://cursos.alura.com.br/course/spring-boot-api-rest"> aqui.</a>
 
-O curso tem carga horária de 8 horas.
+## 💻 💼Sobre o repositório </br> </br> 
 
+Este repositório contém todos os projetos da formação <b> Spring Framework</b> na plataforma Alura.
+Você pode conferir os cursos com mais detalhes clicando [aqui](https://cursos.alura.com.br/formacao-spring-framework).  
 
-<b>Módulo 01: Introdução ao Spring Boot.</b>  
-Neste módulo aprendemos como criar um projeto Spring Boot do zero, adição de dependências, importação na IDE e construção
-do nosso primeiro controller.  
-<b>Ferramentas: Spring Initializr, Spring Web</b>
+A formação tem carga horária de 123 horas e estar dividido em quatro seções e 12 cursos.   
 
-<b>Módulo 02: Publicando Endpoints.</b>  
-Neste módulo aprendemos o siginifica de cada verbo HTTP e como devemos utiliza-los, também criamos as classes modelo da
-aplicação, criação do endPoint de listagem de tópicos, implementação do padrão DTO para evitar o retorno de uma entidade
-com dados sensíveis além de permitir que seja feito apenas o retorno de alguns campos específicos.  
-<b>Ferramentas: Spring Dev Tools</b>
-
-<b>Módulo 03: Usando Spring Data.</b>  
-Neste módulo aprendemos a trabalhar com o Spring Data JPA, configuramos o banco de dados e modificamos as classes modelo
-para serem persistidas no banco de dados, adicionamos o padrão repository e implementamos consultas personalizadas com a JPA.  
-<b>Ferramentas: Spring Data, PostgreSQL</b> 
-
-<b>Módulo 04: Trabalhando com POST.</b>  
-Neste módulo aprendemos que para evitar repetir a URL em todos os métodos, devemos utilizar a anotação @RequestMapping em cima da 
-classe controller. Que para mapear requisições do tipo POST, devemos utilizar a anotação @PostMapping. Que para receber dados 
-enviados no corpo da requisição, a boa prática é criar uma classe Form, e que ao cadastrar informações é uma boa prática devolver
-o código 201 ao invés do 200. Como utilizar o Postman para testar uma API Rest.  
-<b>Ferramentas: Spring Data, PostgreSQL, Postman</b>
-
-<b>Módulo 05: Validação com Bean Validation</b>  
-Neste módulo aprendemos a fazer validações utilizando o Bean Validation, e para que o spring consiga as validações do 
-Bean Validation e devolver um erro 400, caso alguma informação enviada pelo cliente esteja inválida, devemos utilizar a 
-anotação @Valid dentro do parametro do controlle que as validações seram realizadas, também vimos que para interceptar as 
-exceptions que forem lançadas nos métodos das classes controller, devemos criar uma classe anotada com @RestControllerAdvice.  
-<b>Ferramentas: Spring Data, PostgreSQL, Postman, Bean Validation</b>  
-
-<b>Módulo 06: Métodos PUT, DELETE e tratamento de erro</b>  
-Neste módulo aprendemos que para receber parâmetros dinâmicos no path da URL, devemos utilizar a anotação @PathVariable, para 
-o tipo PUT, devemos utilizar a anotação @PutMapping, para o tipo DELETE, devemos utilizar a anotação @DeleteMapping.
-Para fazer o controle transacional automático, devemos usar o @Transactional nos métodos do controller. O método findById 
-retorna um objeto Optional<>, que pode ou não conter um objeto e assim podemos fazer uma validação se a entidade pesquisada
-existe no banco de dados.  
-<b>Ferramentas: Spring Data, PostgreSQL, Postman, Bean Validation</b>  
+Seção 01: Fundamentos do Java na Web  
+* Curso 1 - Java Servlet: programação web Java
+  - Servlet  
+  - Requisições HTTP  
+  - JSP e JSTL  
+  - CRUD  
+  - Deploy com Tomcat  
+  
+Seção 04: API REST e Testes com Spring Boot. 
+* Curso 10 - [Spring Boot API REST: construa uma API.](04-modulo-api-rest-e-testes-com-spring-boot\spring-boot-api-rest-construa-uma-api\README.md)  
+  - Spring Web  
+  - Spring Data  
+  - PostgreSQL  
+  - Postman  
+  - Spring Data  
+  - Bean Validation  
