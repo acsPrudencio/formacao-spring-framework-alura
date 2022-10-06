@@ -17,7 +17,7 @@
 * Padrões relacionados a aplicações web
 
 
-## 💻 💼Sobre o repositório </br> </br> 
+## 💼Sobre o repositório </br> </br> 
 
 Este repositório contém todos os projetos da formação <b> Spring Framework</b> na plataforma Alura.
 Você pode conferir os cursos com mais detalhes clicando [aqui](https://cursos.alura.com.br/formacao-spring-framework).  
@@ -33,7 +33,7 @@ Seção 01: Fundamentos do Java na Web
   - Deploy com Tomcat  
   
 Seção 04: API REST e Testes com Spring Boot. 
-* Curso 10 - [Spring Boot API REST: construa uma API.](04-modulo-api-rest-e-testes-com-spring-boot\spring-boot-api-rest-construa-uma-api\README.md)  
+* Curso 10 - [Spring Boot API REST: construa uma API.](04-modulo-api-rest-e-testes-com-spring-boot/spring-boot-api-rest-construa-uma-api/README.md)  
   - Spring Web  
   - Spring Data  
   - PostgreSQL  
