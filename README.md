@@ -33,7 +33,7 @@ Seção 01: Fundamentos do Java na Web
   - Deploy com Tomcat  
   
 Seção 04: API REST e Testes com Spring Boot. 
-* Curso 10 - [Spring Boot API REST: construa uma API.](04-modulo-api-rest-e-testes-com-spring-boot/spring-boot-api-rest-construa-uma-api)  
+* Curso 10 - [Spring Boot API REST: construa uma API.](04-modulo-api-rest-e-testes-com-spring-boot\spring-boot-api-rest-construa-uma-api)  
   - Spring Web  
   - Spring Data  
   - PostgreSQL  
