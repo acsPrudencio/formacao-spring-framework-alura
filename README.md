@@ -25,7 +25,7 @@ Você pode conferir os cursos com mais detalhes clicando [aqui](https://cursos.a
 A formação tem carga horária de 123 horas e estar dividido em quatro seções e 12 cursos.   
 
 Seção 01: Fundamentos do Java na Web  
-* Curso 01 - [Java Servlet: programação web Java](01-fundamentos-do-java-na-web\01-java-servlet-programacao-web-java)
+* Curso 01 - [Java Servlet: programação web Java](01-fundamentos-do-java-na-web/01-java-servlet-programacao-web-java)
   - Servlet  
   - Requisições HTTP  
   - JSP e JSTL  
